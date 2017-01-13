@@ -9,11 +9,11 @@ Homepage: https://it.stsbl.de/documentation/mods/stsbl-iserv-mail-send-block
 Package: stsbl-iserv-mail-send-block
 Architecture: all
 Depends: iserv-portal
-Description: Mailversand an Gruppen blockieren für IServ
+Description: Mailversand an Gruppen blockieren für IServ (EXPERIMENTELL)
  Dieses Modul fügt das Gruppenmerkmal "Gruppe darf interne E-Mails empfangen" hinzu.
  Dieses funktioniert ähnlich wie das Merkmal "Gruppe darf externe E-Mails empfangen", nur mit dem Unterschied, dass es sich auf interne innerhalb des IServs gesendete E-Mails bezieht.
  .
  Von Gruppen, die keine internen E-Mails innerhalb des IServs enthalten sollen, entfernt man dieses.
  .
  Benutzer, an die das Recht "E-Mails an alle Gruppen senden" vergeben wird, sind von dieser Beschränkung ausgenommen.
-Tag: suite::iserv:portal, role::plugin
+Tag: suite::iserv:portal, role::plugin, status::highlighted, status::experimental
