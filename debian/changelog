@@ -1,6 +1,13 @@
 stsbl-iserv-mail-send-block (17.01.14-2) experimental; urgency=medium
 
   [ Felix Jacobi ]
+  * Removed duplicated config.
+
+ -- Stadtteilschule Blankenese <repository@stsbl.de>  Sat, 14 Jan 2017 01:47:28 +0100
+
+stsbl-iserv-mail-send-block (17.01.14-2) experimental; urgency=medium
+
+  [ Felix Jacobi ]
   * Fixed deb tags again.
 
  -- Stadtteilschule Blankenese <repository@stsbl.de>  Sat, 14 Jan 2017 01:29:29 +0100
