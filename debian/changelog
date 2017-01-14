@@ -1,3 +1,12 @@
+stsbl-iserv-mail-send-block (17.01.14-5) experimental; urgency=medium
+
+  * Emergency update: Fix sql condition to prevent that users are detected as groups without mail_int flag. 
+    Thanks to Philipp Wetzel and Stephan Seidel for the bug report.
+
+  iserv: Bei der Prüfung, ob es sich bei dem Empfänger um eine Gruppe ohne das Merkmal "Gruppe darf interne E-Mails empfangen" handelt, wurde ein kritischer Fehler behoben, der versehentlich Benutzer als soche einstufte. 
+
+ -- Stadtteilschule Blankenese <repository@stsbl.de>  Sat, 14 Jan 2017 18:08:53 +0100
+
 stsbl-iserv-mail-send-block (17.01.14-4) experimental; urgency=medium
 
   [ Felix Jacobi ]
