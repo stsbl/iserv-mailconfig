@@ -3,14 +3,14 @@ stsbl-iserv-mail-send-block (17.01.14-2) experimental; urgency=medium
   [ Felix Jacobi ]
   * Fixed deb tags again.
 
- -- Felix Jacobi <felix.jacobi@stsbl.de>  Sat, 14 Jan 2017 01:29:29 +0100
+ -- Stadtteilschule Blankenese <repository@stsbl.de>  Sat, 14 Jan 2017 01:29:29 +0100
 
 stsbl-iserv-mail-send-block (17.01.14-1) experimental; urgency=medium
 
   [ Felix Jacobi ]
   * Fixed deb tags.
 
- -- Felix Jacobi <felix.jacobi@stsbl.de>  Sat, 14 Jan 2017 01:14:13 +0100
+ -- Stadtteilschule Blankenese <repository@stsbl.de>  Sat, 14 Jan 2017 01:14:13 +0100
 
 stsbl-iserv-mail-send-block (17.01.14-0) experimental; urgency=low
 
