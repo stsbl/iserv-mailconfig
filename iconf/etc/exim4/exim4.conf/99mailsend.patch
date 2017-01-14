@@ -1,5 +1,5 @@
 *** orig/exim4.conf.orig	2017-01-13 23:50:35.684545721 +0100
---- patch/stsbl-iserv-mail-send/exim4.conf	2017-01-14 00:28:04.137717367 +0100
+--- patch/stsbl-iserv-mail-send/exim4.conf	2017-01-14 01:43:58.786954418 +0100
 ***************
 *** 160,165 ****
 --- 160,182 ----
@@ -26,29 +26,3 @@
       # Variable acl_m_ext_rcpt setzen, wenn mindestens ein externer Empfänger
       warn
         !domains = +local_domains
-***************
-*** 225,230 ****
---- 242,264 ----
-          servers.\n.\nDieser Empfänger darf keine E-Mails von anderen Servern \
-          empfangen.
-  
-+     # Deny internal sending of mails to groups without mail_int flag
-+     deny
-+       authenticated = *
-+       condition = ${lookup pgsql{ \
-+ 	SELECT 1 FROM groups g WHERE g.act = '${quote_pgsql:$local_part}' \
-+ 	AND (EXISTS (SELECT 1 FROM groups_flags f WHERE f.act=g.act AND \
-+ 	f.flag='mail_int') OR EXISTS (SELECT 1 FROM users_priv p \
-+ 	WHERE p.act = '${quote_pgsql:$authenticated_id}' AND p.privilege = \
-+ 	'mail_all_grps'))}}
-+       # Admins must always reachable
-+       ! local_parts = admins
-+       # only apply for local domains
-+       domains = +local_domains
-+       message = This recipient is not allowed to receive e-mail from other \
-+         internal addresses.\n\nDieser Empfänger darf keine E-Mails von anderen \
-+ 	internen Adressen empfangen.
-+ 
-      # Greylisting für Mails mit Absender
-      defer
-        !senders = :
