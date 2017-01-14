@@ -16,4 +16,4 @@ Description: Mailversand an Gruppen blockieren für IServ (EXPERIMENTELL)
  Von Gruppen, die keine internen E-Mails innerhalb des IServs enthalten sollen, entfernt man dieses.
  .
  Benutzer, an die das Recht "E-Mails an alle Gruppen senden" vergeben wird, sind von dieser Beschränkung ausgenommen.
-Tag: suite::iserv:portal, role::plugin, status::highlighted, status::recommended
+Tag: suite::iserv:portal, role::plugin, status::highlighted, status::experimental

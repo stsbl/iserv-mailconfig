@@ -1,3 +1,12 @@
+stsbl-iserv-mail-send-block (17.01.14-2) experimental; urgency=medium
+
+  [ Stadtteilschule Blankenese ]
+  * UNRELEASED
+
+  [ Felix Jacobi ]
+
+ -- Felix Jacobi <felix.jacobi@stsbl.de>  Sat, 14 Jan 2017 01:28:44 +0100
+
 stsbl-iserv-mail-send-block (17.01.14-1) experimental; urgency=medium
 
   [ Felix Jacobi ]
