@@ -2,7 +2,7 @@ msgid "Send e-mails to all groups"
 msgstr "E-Mails an alle Gruppen senden"
 
 msgid "This privilege allows the users to send e-mails to groups which has not the group flag \"Group may receive internal emails\"."
-msgstr "Dieses Recht erlaubt den Benutzern E-Mails an Gruppen zu sendne, die nicht das Gruppenmerkmal \"Gruppe darf interne E-Mails empfangen\" haben."
+msgstr "Dieses Recht erlaubt den Benutzern E-Mails an Gruppen zu senden, die nicht das Gruppenmerkmal \"Gruppe darf interne E-Mails empfangen\" haben."
 
 msgid "Group may receive internal e-mails"
 msgstr "Gruppe darf interne E-Mails empfangen"
