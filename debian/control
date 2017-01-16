@@ -1,4 +1,4 @@
-Source: stsbl-iserv-mail-config
+Source: stsbl-iserv-mailconfig
 Section: misc
 Priority: extra
 Maintainer: Stadtteilschule Blankenese <repository@stsbl.de>
@@ -6,7 +6,7 @@ Build-Depends: debhelper (>= 9)
 Standards-Version: 3.9.5
 Homepage: https://it.stsbl.de/documentation/mods/stsbl-iserv-mail-config
 
-Package: stsbl-iserv-mail-config
+Package: stsbl-iserv-mailconfig
 Architecture: all
 Depends: iserv-portal
 Description: E-Mail-Konfigurations-Modul für IServ
