@@ -1,5 +1,5 @@
-debian/stsbl-iserv-mail-send-block/*
-debian/stsbl-iserv-mail-send-block.debhelper.log
-debian/stsbl-iserv-mail-send-block.substvars
+debian/stsbl-iserv-mailconfig/*
+debian/stsbl-iserv-mailconfig.debhelper.log
+debian/stsbl-iserv-mailconfig.substvars
 debian/files
 debian/debhelper-build-stamp
