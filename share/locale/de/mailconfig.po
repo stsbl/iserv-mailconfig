@@ -9,3 +9,12 @@ msgstr "Gruppe darf interne E-Mails empfangen"
 
 msgid "Remove this flag from groups that are not supposed to receive internal emails."
 msgstr "Entfernen sie dieses Merkmal von Gruppen, die keine E-Mails von innerhalb mehr empfangen können sollen."
+
+msgid "Treat mails from these domains as local"
+msgstr "E-Mails von diesen Domains als lokal behandeln"
+
+msgid "Enter a list of domains, whose e-mails should treated like local domains relating to the privilege \"Exchange e-mail with other servers\" and the group flag \"Group may receive external emails\"."
+msgstr "Geben sie eine Liste von Domains an, dessen E-Mails als lokal behandelt werden sollen bezogen auf das Sonderrecht \"E-Mails mit anderen Servern austauschen\" und das Gruppenmerkmal \"Gruppe darf externe E-Mails empfangen\"."
+
+msgid "Module: E-Mail Configuration"
+msgstr "Modul: E-Mail-Konfiguration"

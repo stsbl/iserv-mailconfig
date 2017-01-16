@@ -1,0 +1,6 @@
+MailTreatAsLocal:
+name		Treat mails from these domains as local
+description	Enter a list of domains, whose e-mails should treated like local domains relating to the privilege "Exchange e-mail with other servers" and the group flag "Group may receive external emails".
+type		array
+group		Module: E-Mail Configuration
+default		()
