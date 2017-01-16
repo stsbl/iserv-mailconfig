@@ -1,3 +1,11 @@
+stsbl-iserv-mailconfig (17.01.17-0) experimental; urgency=medium
+
+  [ Felix Jacobi ]
+  * Re-release as stsbl-iserv-mailconfig. 
+  * Added option for domains whose should treated as local.
+
+ -- Stadtteilschule Blankenese <repository@stsbl.de>  Tue, 17 Jan 2017 00:42:39 +0100
+
 stsbl-iserv-mail-send-block (17.01.14-5) experimental; urgency=medium
 
   * Emergency update: Fix sql condition to prevent that users are detected as groups without mail_int flag. 
