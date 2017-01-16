@@ -9,6 +9,10 @@ Homepage: https://it.stsbl.de/documentation/mods/stsbl-iserv-mail-config
 Package: stsbl-iserv-mailconfig
 Architecture: all
 Depends: iserv-portal
+Replaces: stsbl-iserv-mail-send-block
+Provides: stsbl-iserv-mail-send-block
+Conflicts: stsbl-iserv-mail-send-block
+Breaks: stsbl-iserv-mail-send-block
 Description: E-Mail-Konfigurations-Modul für IServ
  Dieses Modul eröffnet zusätzliche Einstellungsmöglichkeiten für den in IServ integrierten E-Mail-Server.
  .
