@@ -1,3 +1,10 @@
+stsbl-iserv-mailconfig (17.02.03-0) experimental; urgency=medium
+
+  [ Felix Jacobi ]
+  * Added rule to allow users who do not have the mail_ext privilege the sending of e-mail to treat_as_local_domains.
+
+ -- Stadtteilschule Blankenese <repository@stsbl.de>  Fri, 03 Feb 2017 07:26:01 +0100
+
 stsbl-iserv-mailconfig (17.01.17-0) experimental; urgency=medium
 
   [ Felix Jacobi ]
