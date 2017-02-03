@@ -5,6 +5,13 @@ stsbl-iserv-mailconfig (17.02.03-0) experimental; urgency=medium
 
  -- Stadtteilschule Blankenese <repository@stsbl.de>  Fri, 03 Feb 2017 07:26:01 +0100
 
+ stsbl-iserv-mailconfig (17.01.17-1) experimental; urgency=medium
+
+  [ Felix Jacobi ]
+  * Added replacement of old module to control.
+
+ -- Stadtteilschule Blankenese <repository@stsbl.de>  Tue, 17 Jan 2017 00:52:57 +0100
+
 stsbl-iserv-mailconfig (17.01.17-0) experimental; urgency=medium
 
   [ Felix Jacobi ]
