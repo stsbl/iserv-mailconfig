@@ -1,3 +1,11 @@
+stsbl-iserv-mailconfig (17.03.17-0) experimental; urgency=medium
+
+  [ Felix Jacobi ]
+  * Fixed l10n.
+  * Fixed inseration of spam block condition.
+
+ -- Stadtteilschule Blankenese <repository@stsbl.de>  Fri, 17 Mar 2017 01:22:09 +0100
+
 stsbl-iserv-mailconfig (17.02.03-0) experimental; urgency=medium
 
   [ Felix Jacobi ]
