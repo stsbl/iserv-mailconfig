@@ -8,6 +8,6 @@
     accept\
       authenticated = *\
       domains = +treat_as_local_domains\
-      # do not include users which send spam
-      !condition = ${lookup pgsql{ SELECT 1 FROM exim_send_block \
+      # do not include users which send spam\
+      !condition = ${lookup pgsql{ SELECT 1 FROM exim_send_block \\\
         WHERE act = '${quote_pgsql:$authenticated_id}' }}\
