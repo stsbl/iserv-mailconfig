@@ -1,3 +1,11 @@
+stsbl-iserv-mailconfig (17.05.24-0) experimental; urgency=medium
+
+  [ Felix Jacobi ]
+  * Fixed changelog parse error.
+  * Removed highlighted tag.
+
+ -- Stadtteilschule Blankenese <repository@stsbl.de>  Wed, 24 May 2017 06:40:18 +0200
+
 stsbl-iserv-mailconfig (17.03.17-0) experimental; urgency=medium
 
   [ Felix Jacobi ]
