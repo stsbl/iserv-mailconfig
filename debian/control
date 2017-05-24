@@ -24,4 +24,4 @@ Description: E-Mail-Konfigurations-Modul für IServ
  Benutzer, an die das Recht "E-Mails an alle Gruppen senden" vergeben wird, sind von dieser Beschränkung ausgenommen.
  .
  Außerdem besteht in iservcfg die Möglichkeit, Domains zu definieren, deren E-Mails wie interner Verkehr behandelt werden soll.
-Tag: suite::iserv:portal, role::plugin, status::highlighted
+Tag: suite::iserv:portal, role::plugin
