@@ -1,3 +1,9 @@
+stsbl-iserv-mailconfig (19.05.16-5) experimental; urgency=medium
+
+  * Fixed legacy upgrade with legacy values
+
+ -- Felix Jacobi <Felix@jacobi-hamburg.net>  Thu, 16 May 2019 00:40:32 +0200
+
 stsbl-iserv-mailconfig (19.05.16-4) experimental; urgency=medium
 
   * Fixed typo in news
