@@ -1,3 +1,9 @@
+stsbl-iserv-mailconfig (19.05.16-4) experimental; urgency=medium
+
+  * Fixed typo in news
+
+ -- Felix Jacobi <Felix@jacobi-hamburg.net>  Thu, 16 May 2019 00:35:25 +0200
+
 stsbl-iserv-mailconfig (19.05.16-3) experimental; urgency=medium
 
   * Satisfy lintian
