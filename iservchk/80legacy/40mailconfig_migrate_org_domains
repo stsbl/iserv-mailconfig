@@ -1,0 +1,7 @@
+Test "migrate MailTreatAsLocal -> MailOrgDomains"
+  grep -q ^40mailconfig_migrate_org_domains$ /var/lib/iserv/config/update.log
+  ---
+  /usr/share/iserv/upgrade/mailconfig_local_org_domains &&
+    echo 40mailconfig_migrate_org_domains >> /var/lib/iserv/config/update.log
+    [ -n "${ISERVCHK_TOP_PID}" ] && kill -USR1 "${ISERVCHK_TOP_PID}"
+
