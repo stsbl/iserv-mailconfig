@@ -16,7 +16,11 @@ do
   CFG_STR+="\"$domain\" "
 done
 
-CFG_STR="${CFG_STR: : -1}"
+if ! [ "$CFG_STR" = "(" ]
+then
+  CFG_STR="${CFG_STR: : -1}"
+fi
+
 CFG_STR+=')'
 
 # quote all except letters and digits
