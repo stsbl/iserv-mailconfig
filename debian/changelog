@@ -1,3 +1,17 @@
+stsbl-iserv-mailconfig (19.05.16-1) experimental; urgency=medium
+
+  * Updated packaging
+  * Updated build rules for webpack support
+  * Migrate MailTraitAsLocal to MailOrgDomains
+
+  iserv: Die Konfigurationsoption "E-Mails von diesen Domains als lokal
+    behandeln", die von diesem Modul bereitgestellt wird, gilt ab sofort als
+    veraltet. Die in diese Option eingetragenen Domains werden zur
+    Konfigurationsoption "Organisations-E-Mail-Domains" migriert, die von
+    IServ direkt bereitgestellt wird und den Funktionsumfang ermöglicht.
+
+ -- Felix Jacobi <Felix@jacobi-hamburg.net>  Thu, 16 May 2019 00:23:39 +0200
+
 stsbl-iserv-mailconfig (17.05.24-0) experimental; urgency=medium
 
   [ Felix Jacobi ]
