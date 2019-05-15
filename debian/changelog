@@ -10,7 +10,7 @@ stsbl-iserv-mailconfig (19.05.16-1) experimental; urgency=medium
     Konfigurationsoption "Organisations-E-Mail-Domains" migriert, die von
     IServ direkt bereitgestellt wird und den Funktionsumfang ermöglicht.
 
- -- Felix Jacobi <Felix@jacobi-hamburg.net>  Thu, 16 May 2019 00:23:39 +0200
+ -- Felix Jacobi <Felix@jacobi-hamburg.net>  Thu, 16 May 2019 00:28:19 +0200
 
 stsbl-iserv-mailconfig (17.05.24-0) experimental; urgency=medium
 
