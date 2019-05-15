@@ -11,7 +11,8 @@ Package: stsbl-iserv-mailconfig
 Architecture: all
 Depends: ${misc:Depends},
   ${perl:Depends},
-  iserv-portal
+  iserv-portal,
+  zsh,
 Replaces:
   stsbl-iserv-mail-send-block
 Provides:
@@ -22,14 +23,17 @@ Breaks:
   stsbl-iserv-mail-send-block
 Xb-Private-IServ-Revision: ${iserv:Revision}
 Description: E-Mail-Konfigurations-Modul für IServ
- Dieses Modul eröffnet zusätzliche Einstellungsmöglichkeiten für den in IServ integrierten E-Mail-Server.
+ Dieses Modul eröffnet zusätzliche Einstellungsmöglichkeiten für den in
+ IServ integrierten E-Mail-Server.
  .
- Zusätzlich gibt es das neue Gruppenmerkmal "Gruppe darf interne E-Mails empfangen".
- Dieses funktioniert ähnlich wie das Merkmal "Gruppe darf externe E-Mails empfangen", nur mit dem Unterschied, dass es sich auf interne innerhalb des IServs gesendete E-Mails bezieht.
+ Zusätzlich gibt es das neue Gruppenmerkmal "Gruppe darf interne E-Mails
+ empfangen". Dieses funktioniert ähnlich wie das Merkmal "Gruppe darf externe
+ E-Mails empfangen", nur mit dem Unterschied, dass es sich auf interne
+ innerhalb des IServs gesendete E-Mails bezieht.
  .
- Von Gruppen, die keine internen E-Mails innerhalb des IServs enthalten sollen, entfernt man dieses.
+ Von Gruppen, die keine internen E-Mails innerhalb des IServs enthalten sollen,
+ entfernt man dieses.
  .
- Benutzer, an die das Recht "E-Mails an alle Gruppen senden" vergeben wird, sind von dieser Beschränkung ausgenommen.
- .
- Außerdem besteht in iservcfg die Möglichkeit, Domains zu definieren, deren E-Mails wie interner Verkehr behandelt werden soll.
+ Benutzer, an die das Recht "E-Mails an alle Gruppen senden" vergeben wird,
+ sind von dieser Beschränkung ausgenommen.
 Tag: suite::iserv:portal, role::plugin
