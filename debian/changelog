@@ -1,3 +1,10 @@
+stsbl-iserv-mailconfig (20.08.02-1) testing; urgency=medium
+
+  * Bumped copyright
+  * Updated locale handling to use genpo
+
+ -- Felix Jacobi <Felix@jacobi-hamburg.net>  Sun, 02 Aug 2020 06:44:04 +0200
+
 stsbl-iserv-mailconfig (19.05.16-5) experimental; urgency=medium
 
   * Fixed legacy upgrade with legacy values
