@@ -2,26 +2,18 @@ Source: stsbl-iserv-mailconfig
 Section: misc
 Priority: optional
 Maintainer: Stadtteilschule Blankenese <repository@stsbl.de>
-Build-Depends: debhelper (>= 10)
-Build-Depends-Indep: iserv-buildtools
-Standards-Version: 4.3.0
+Build-Depends: debhelper-compat (= 13), dh-sequence-iserv, dh-sequence-stsbl
+Standards-Version: 4.5.0
 Homepage: https://it.stsbl.de/documentation/mods/stsbl-iserv-mail-config
 
 Package: stsbl-iserv-mailconfig
 Architecture: all
-Depends: ${misc:Depends},
-  ${perl:Depends},
-  iserv-portal,
-  zsh,
-Replaces:
-  stsbl-iserv-mail-send-block
-Provides:
-  stsbl-iserv-mail-send-block
-Conflicts:
-  stsbl-iserv-mail-send-block
-Breaks:
-  stsbl-iserv-mail-send-block
-Xb-Private-IServ-Revision: ${iserv:Revision}
+Depends: iserv-portal, zsh, ${misc:Depends}, ${perl:Depends}
+Replaces: stsbl-iserv-mail-send-block
+Provides: stsbl-iserv-mail-send-block
+Conflicts: stsbl-iserv-mail-send-block
+Breaks: stsbl-iserv-mail-send-block
+Xb-Private-Iserv-Revision: ${iserv:Revision}
 Description: E-Mail-Konfigurations-Modul für IServ
  Dieses Modul eröffnet zusätzliche Einstellungsmöglichkeiten für den in
  IServ integrierten E-Mail-Server.
