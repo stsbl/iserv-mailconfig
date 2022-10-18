@@ -1,10 +1,12 @@
 priv.mail_all_grps:
+uuid 		55a44a28-fbbb-4f12-a8c4-73230cbc7178
 module          E-mail
 title           Send e-mails to all groups
 description     This privilege allows the users to send e-mails to groups which has not the group flag "Group may receive internal emails".
 assign          admins
 
 flag.mail_int:
+uuid 		d0468724-6d99-4f11-8b33-786ca86cac20
 module		E-mail
 title		Group may receive internal e-mails
 description	Remove this flag from groups that are not supposed to receive internal emails.
