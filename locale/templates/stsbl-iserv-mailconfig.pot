@@ -1,16 +1,27 @@
+# TRANSLATION CATALOG OF STSBL-ISERV-MAILCONFIG.
+# Copyright (C) 2023 IServ GmbH
+# This file is distributed under the same license as the stsbl-iserv-mailconfig package.
+# IServ GmbH <info@iserv.eu>, 2023.
+#
+#, fuzzy
 msgid ""
 msgstr ""
+"Project-Id-Version: stsbl-iserv-mailconfig\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
 
 #: priv/mailconfig
 msgid "E-mail"
 msgstr ""
 
 #: config/80mailconfig
-msgid "Enter a list of domains, whose e-mails should treated like local domains relating to the privilege \"Exchange e-mail with other servers\" and the group flag \"Group may receive external emails\". This option has been deprecated is only used for transitional purposes."
+msgid ""
+"Enter a list of domains, whose e-mails should treated like local domains "
+"relating to the privilege \"Exchange e-mail with other servers\" and the "
+"group flag \"Group may receive external emails\". This option has been "
+"deprecated is only used for transitional purposes."
 msgstr ""
 
 #: priv/mailconfig
@@ -22,7 +33,9 @@ msgid "Module: E-Mail Configuration"
 msgstr ""
 
 #: priv/mailconfig
-msgid "Remove this flag from groups that are not supposed to receive internal emails."
+msgid ""
+"Remove this flag from groups that are not supposed to receive internal "
+"emails."
 msgstr ""
 
 #: priv/mailconfig
@@ -30,7 +43,9 @@ msgid "Send e-mails to all groups"
 msgstr ""
 
 #: priv/mailconfig
-msgid "This privilege allows the users to send e-mails to groups which has not the group flag \"Group may receive internal emails\"."
+msgid ""
+"This privilege allows the users to send e-mails to groups which has not the "
+"group flag \"Group may receive internal emails\"."
 msgstr ""
 
 #: config/80mailconfig
