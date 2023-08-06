@@ -3,3 +3,7 @@ debian/stsbl-iserv-mailconfig.debhelper.log
 debian/stsbl-iserv-mailconfig.substvars
 debian/files
 debian/debhelper-build-stamp
+/Makefile.iservmake
+/locale
+/system-locale
+!/locale/templates/*_misc.pot
